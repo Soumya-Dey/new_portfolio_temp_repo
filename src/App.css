@@ -3,7 +3,7 @@
     --secondary-background: #f7f7f7;
     --primary-text: #020202;
     --secondary-text: #777777;
-    --accent: rgb(131, 238, 204);
+    --accent: #83eecc;
 }
 
 * {
@@ -16,7 +16,16 @@ body {
     font-family: "Mulish", sans-serif;
     background-color: var(--primary-background);
     color: var(--primary-text);
-    font-weight: 400;
+    font-weight: 500;
+    scroll-behavior: smooth;
+}
+
+.theme-toggle:checked {
+    --primary-background: #000000;
+    --secondary-background: #f7f7f7;
+    --primary-text: #020202;
+    --secondary-text: #777777;
+    --accent: #83eecc;
 }
 
 .container {
@@ -150,4 +159,34 @@ body {
 
 .landing-text span {
     color: var(--accent);
+}
+
+.flex-r-spbw {
+    /* min-height: calc(100vh - 4em); */
+    padding: 4em 1em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.aboout-text {
+    width: 65%;
+}
+
+.about-heading {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.about-me {
+    color: var(--secondary-text);
+    letter-spacing: 0.4px;
+    line-height: 2;
+}
+
+.banner {
+    width: 218px;
+    height: 218px;
+    border-radius: 50%;
 }
