@@ -162,8 +162,7 @@ body {
 }
 
 .flex-r-spbw {
-    /* min-height: calc(100vh - 4em); */
-    padding: 4em 1em;
+    padding: 3em 1em;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -190,3 +189,31 @@ body {
     height: 218px;
     border-radius: 50%;
 }
+
+.skills-cont {
+    padding: 3em 1em;
+}
+
+.skills-grid {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.skills-grid > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-item {
+    margin-top: 2em;
+    font-weight: 700;
+    font-size: 1.1em;
+    color: var(--primary-text);
+    list-style-type: circle;
+}
+
+/*
+    @TODO: Add dark theme toggle...link: https://medium.com/@haxzie/dark-and-light-theme-switcher-using-css-variables-and-pure-javascript-zocada-dd0059d72fa2
+*/

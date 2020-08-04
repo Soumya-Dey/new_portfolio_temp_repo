@@ -1,33 +1,24 @@
 import React from "react";
 
+import { Paragraph } from "./sub-components/Paragraph";
+
 export const About = () => {
+    const content = {
+        heading: "About Me",
+        para1:
+            "I'm a 20-year-old student at Vivekananda Centenary College currently pursuing Bachelors in Computer Science.",
+        para2:
+            "During my internships and studies, I've worked alongside senior designers and developers who have raised my standards for whats expected of any web application. Till now I've created some projects with enjoyable ui written in code that is functional and maintainable.",
+    };
+
     return (
         <div className="container">
             <div className="flex-r-spbw">
-                <div className="aboout-text">
-                    <div className="about-heading">About me</div>
-                    <div className="about-me">
-                        I'm a 21-year-old student at{" "}
-                        <b>
-                            <em>Vivekananda Centenary College</em>
-                        </b>{" "}
-                        currently pursuing{" "}
-                        <b>
-                            <em>Bachelors in Computer Science</em>
-                        </b>
-                        .
-                        <br />
-                        During my internships and studies, I've worked alongside
-                        senior designers and developers who have raised my
-                        standards for whats expected of any web application.
-                        Till now I've created some projects with enjoyable ui
-                        written in code that is functional and maintainable.
-                    </div>
-                </div>
+                <Paragraph content={content} />
                 <img
                     className="banner"
                     src="images/my-avatar-center.jpg"
-                    alt="image of Soumya dey"
+                    alt="Avatar of Soumya dey"
                 ></img>
             </div>
         </div>

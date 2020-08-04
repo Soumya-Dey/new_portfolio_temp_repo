@@ -1,8 +1,6 @@
 import React from "react";
 import { Fade, Zoom } from "@material-ui/core";
 
-import { Toggle } from "./Toggle";
-
 export const Landing = () => {
     return (
         <div className="container">
