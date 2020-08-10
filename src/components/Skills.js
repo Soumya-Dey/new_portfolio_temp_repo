@@ -11,7 +11,7 @@ export const Skills = () => {
     };
 
     return (
-        <div className="container">
+        <div className="container" id="skills">
             <div className="skills-cont">
                 <Paragraph content={content} />
                 <SkillList />

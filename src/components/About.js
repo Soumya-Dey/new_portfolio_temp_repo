@@ -12,7 +12,7 @@ export const About = () => {
     };
 
     return (
-        <div className="container">
+        <div className="container" id="about">
             <div className="flex-r-spbw">
                 <Paragraph content={content} />
                 <img

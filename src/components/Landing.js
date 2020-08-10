@@ -3,7 +3,7 @@ import { Fade, Zoom } from "@material-ui/core";
 
 export const Landing = () => {
     return (
-        <div className="container">
+        <div className="container" id="landing">
             <div className="right-clip-1"></div>
             <div className="right-clip-2"></div>
 
@@ -51,7 +51,7 @@ export const Landing = () => {
 
                     <Fade in={true} timeout={1400}>
                         <div className="text-cont">
-                            <a href="#!" className="vert-btn">
+                            <a href="#projects" className="vert-btn">
                                 view my work
                             </a>
 

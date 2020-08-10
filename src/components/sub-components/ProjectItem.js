@@ -2,17 +2,18 @@ import React from "react";
 
 import { Paragraph } from "./Paragraph";
 
-export const ProjectItem = () => {
-    const content = {
-        heading: "What I've been working on",
-        para1: "I like to stay busy and always have a project in the works.",
-    };
-
+export const ProjectItem = ({ content }) => {
     return (
-        <a href="!#">
-            <img src="images/my-avatar-center.jpg" alt="project 1"></img>
-            <Paragraph content={content} />
-            <p>View Project</p>
+        <a href={content.link}>
+            <div alt="project 1" className="project-img"></div>
+            <Paragraph
+                content={content}
+                cl1="project-heading"
+                cl2="project-details"
+            />
+            <p href="!#" className="view-href">
+                View Project <i class="fas fa-angle-right"></i>
+            </p>
         </a>
     );
 };
