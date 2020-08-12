@@ -25,7 +25,7 @@ export const Landing = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <i class="fab fa-instagram"></i>
+                                    <i className="fab fa-instagram"></i>
                                 </a>
                             </Zoom>
                             <Zoom in={true} timeout={600}>
@@ -34,7 +34,7 @@ export const Landing = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <i class="fab fa-github"></i>
+                                    <i className="fab fa-github"></i>
                                 </a>
                             </Zoom>
                             <Zoom in={true} timeout={600}>
@@ -43,7 +43,7 @@ export const Landing = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <i class="fab fa-twitter"></i>
+                                    <i className="fab fa-twitter"></i>
                                 </a>
                             </Zoom>
                         </div>

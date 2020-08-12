@@ -261,15 +261,11 @@ body {
 
 .fa-angle-right {
     transform: translate(2px, 1px);
+    transition: all 0.2s ease;
 }
 
-.view-href:hover::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2px;
-    margin-top: 2px;
-    background-color: var(--primary-text);
+.view-href:hover .fa-angle-right {
+    transform: translate(8px, 1px);
 }
 
 /*
