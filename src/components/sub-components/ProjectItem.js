@@ -4,7 +4,7 @@ import { Paragraph } from "./Paragraph";
 
 export const ProjectItem = ({ content }) => {
     return (
-        <a href={content.link}>
+        <a href={content.link} target="_blank" rel="noopener noreferrer">
             <div
                 alt="project 1"
                 className="project-img"

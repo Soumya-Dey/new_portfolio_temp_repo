@@ -360,6 +360,55 @@ body {
     height: 300px;
 }
 
+.footer-cont {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.footer-logo {
+    margin: 0;
+}
+
+.footer-cont p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--primary-text);
+    color: var(--accent);
+    padding: 0.3em 0.6em;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a {
+    margin-left: 1em;
+    color: var(--primary-text);
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.insta-link:hover {
+    color: #c13584;
+}
+
+.github-link:hover {
+    color: #333333;
+}
+
+.twitter-link:hover {
+    color: #1da1f2;
+}
+
 /*
     @TODO: Add dark theme toggle...link: https://medium.com/@haxzie/dark-and-light-theme-switcher-using-css-variables-and-pure-javascript-zocada-dd0059d72fa2
 */

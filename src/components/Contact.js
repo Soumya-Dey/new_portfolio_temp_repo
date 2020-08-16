@@ -14,15 +14,15 @@ export const Contact = () => {
     const instaFeed = [
         {
             id: "insta-feed-1",
-            image: "glenaries-cupcakes",
-        },
-        {
-            id: "insta-feed-2",
             image: "tea-estate-darjeeling",
         },
         {
-            id: "insta-feed-3",
+            id: "insta-feed-2",
             image: "sunrise-from-window",
+        },
+        {
+            id: "insta-feed-3",
+            image: "glenaries-cupcakes",
         },
         {
             id: "insta-feed-4",

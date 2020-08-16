@@ -6,9 +6,9 @@ export const About = () => {
     const content = {
         heading: "About Me",
         para1:
-            "I'm a 20-year-old student at Vivekananda Centenary College currently pursuing Bachelors in Computer Science.",
+            "I'm a 20-year-old student at Vivekananda Centenary College currently pursuing Bachelors in Computer Science. During my internships and studies, I've created some projects with great ui written in code that is functional and maintainable.",
         para2:
-            "During my internships and studies, I've worked alongside senior designers and developers who have raised my standards for whats expected of any web application. Till now I've created some projects with enjoyable ui written in code that is functional and maintainable.",
+            "I'm a huge fan of football ⚽. Friends call me a big book worm 📚. I like to make stuff by my own and travel places with my camera 📷. And lastly a strong cup of black coffee ☕ is always there to keep the creativity up to the point.",
     };
 
     return (

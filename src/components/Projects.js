@@ -18,6 +18,12 @@ export const Projects = () => {
             link: "https://github.com/Soumya-Dey/devConnect-social-media",
         },
         {
+            heading: "Track-Corona",
+            para1:
+                "A simple website to track and get latest data about COVID-19 pandemic.",
+            link: "https://github.com/Soumya-Dey/track-corona",
+        },
+        {
             heading: "Secrets-Keeper",
             para1:
                 "A web app to share your darkest secrets with the world anonymously.",
@@ -28,12 +34,6 @@ export const Projects = () => {
             para1:
                 "A note taking app made with ReactJS inspired from Google Keep.",
             link: "https://github.com/Soumya-Dey/React-Keeper-app",
-        },
-        {
-            heading: "Track-Corona",
-            para1:
-                "A simple website to track and get latest data about COVID-19 pandemic.",
-            link: "https://github.com/Soumya-Dey/track-corona",
         },
         {
             heading: "Forkify-app",

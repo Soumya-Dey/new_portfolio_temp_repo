@@ -21,20 +21,20 @@ export const Landing = () => {
                         <div className="icons">
                             <Zoom in={true} timeout={600}>
                                 <a
-                                    href="https://www.instagram.com/soumya_sl/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <i className="fab fa-instagram"></i>
-                                </a>
-                            </Zoom>
-                            <Zoom in={true} timeout={600}>
-                                <a
                                     href="https://github.com/Soumya-Dey"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
                                     <i className="fab fa-github"></i>
+                                </a>
+                            </Zoom>
+                            <Zoom in={true} timeout={600}>
+                                <a
+                                    href="https://www.instagram.com/soumya_sl/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i className="fab fa-instagram"></i>
                                 </a>
                             </Zoom>
                             <Zoom in={true} timeout={600}>
