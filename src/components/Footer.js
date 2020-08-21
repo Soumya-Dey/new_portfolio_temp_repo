@@ -5,7 +5,7 @@ export const Footer = () => {
         <div className="container container-alt" id="footer">
             <div className="footer-cont">
                 <div className="logo footer-logo">dEY.</div>
-                <p>#BlackLivesMatter</p>
+                <p className="hide-sm">#BlackLivesMatter</p>
                 <div className="footer-links">
                     <a
                         className="github-link"

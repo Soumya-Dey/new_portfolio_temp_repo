@@ -51,7 +51,7 @@ export const Landing = () => {
 
                     <Fade in={true} timeout={1400}>
                         <div className="text-cont">
-                            <a href="#projects" className="vert-btn">
+                            <a href="#projects" className="vert-btn hide-md">
                                 view my work
                             </a>
 
@@ -60,6 +60,12 @@ export const Landing = () => {
                                 <br />
                                 Full Stack <span>Developer</span>,<br />
                                 Student, and intern at Rent2Trust.
+                                <a
+                                    href="#projects"
+                                    className="hide-lg horz-btn"
+                                >
+                                    view my work
+                                </a>
                             </div>
                         </div>
                     </Fade>

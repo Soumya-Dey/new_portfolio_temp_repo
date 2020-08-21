@@ -10,7 +10,7 @@ export const Paragraph = ({ content: { heading, para1, para2 }, cl1, cl2 }) => {
                     <>
                         <br />
                         <br />
-                        {para2}
+                        <p className="w-full-md">{para2}</p>
                     </>
                 )}
             </div>

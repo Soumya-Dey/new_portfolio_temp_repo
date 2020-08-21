@@ -14,9 +14,9 @@ export const About = () => {
     return (
         <div className="container" id="about">
             <div className="flex-r-spbw">
-                <Paragraph content={content} />
+                <Paragraph content={content} showImg={true} />
                 <img
-                    className="banner"
+                    className="banner hide-sm"
                     src="images/my-avatar-center.jpg"
                     alt="Avatar of Soumya dey"
                 ></img>

@@ -116,42 +116,22 @@ body {
 }
 
 .vert-btn {
-    transform: rotate(-90deg) translateY(-64px);
-    font-size: 1.5em;
+    width: max-content;
+    transform: rotate(-90deg) translate(8px, -70px);
+    font-size: 1.3em;
+    padding: 4px 14px;
     color: var(--primary-text);
     font-weight: 700;
     text-decoration: none;
+    padding: 6px 20px 10px 20px;
     transition: all 0.2s ease;
-}
-
-.vert-btn::before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2px;
-    margin-bottom: 4px;
-    background-color: var(--primary-text);
-    transition: all 0.2s ease;
-}
-
-.vert-btn::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2px;
-    margin-top: 8px;
-    background-color: var(--primary-text);
-    transition: all 0.2s ease;
-}
-
-.vert-btn:hover::before {
-    transform: translateY(-4px);
     background-color: var(--accent);
+    border: 2px solid var(--accent);
+    border-radius: 36px;
 }
 
-.vert-btn:hover::after {
-    transform: translateY(4px);
-    background-color: var(--accent);
+.vert-btn:hover {
+    background-color: transparent;
 }
 
 .landing-text {
@@ -159,7 +139,7 @@ body {
     font-weight: 700;
     line-height: 1.5;
     padding-bottom: 1.5rem;
-    transform: translateX(-64px);
+    transform: translateX(-80px);
 }
 
 .landing-text span {
@@ -201,18 +181,13 @@ body {
 
 .skills-grid {
     width: 80%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2em;
-}
-
-.skills-grid > div {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+    margin-top: 4em;
 }
 
 .skill-item {
-    margin-top: 2em;
     font-weight: 700;
     font-size: 1.1em;
     color: var(--primary-text);
@@ -223,7 +198,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 5em 7em;
+    gap: 5em 7em;
     margin-top: 4em;
 }
 
@@ -332,7 +307,7 @@ body {
     grid-template-areas:
         "feed1 feed1 feed2 feed4 feed4"
         "feed1 feed1 feed3 feed4 feed4";
-    grid-gap: 20px;
+    gap: 20px;
 }
 
 .insta-grid img {
@@ -407,6 +382,299 @@ body {
 
 .twitter-link:hover {
     color: #1da1f2;
+}
+
+.hide-lg {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .landing-text {
+        margin-left: 1.5em;
+    }
+    .hide-md {
+        display: none;
+    }
+    .horz-btn {
+        display: block;
+        width: fit-content;
+        margin-top: 1.4em;
+        font-size: 0.4em;
+        padding: 4px 14px;
+        color: var(--primary-text);
+        font-weight: 700;
+        text-decoration: none;
+        transition: all 0.2s ease;
+        background-color: var(--accent);
+        border: 2px solid var(--accent);
+        border-radius: 20px;
+    }
+
+    .horz-btn:hover {
+        background-color: transparent;
+    }
+    .insta-feed-1 {
+        width: 260px;
+        height: 260px;
+    }
+    .insta-feed-2 {
+        width: 120px;
+        height: 120px;
+    }
+    .insta-feed-3 {
+        width: 120px;
+        height: 120px;
+    }
+    .insta-feed-4 {
+        grid-area: feed4;
+        width: 260px;
+        height: 260px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        padding: 1.8em 3em;
+    }
+
+    .flex-r-spbw {
+        align-items: flex-start;
+    }
+
+    .w-full-md {
+        width: 86vw;
+    }
+
+    .skills-grid {
+        width: 85%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .project-grid {
+        gap: 4em;
+    }
+
+    .project-img {
+        height: 200px;
+    }
+
+    .insta-feed-1 {
+        width: 200px;
+        height: 200px;
+    }
+    .insta-feed-2 {
+        width: 90px;
+        height: 90px;
+    }
+    .insta-feed-3 {
+        width: 90px;
+        height: 90px;
+    }
+    .insta-feed-4 {
+        grid-area: feed4;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .container {
+        padding: 1.6em 2em;
+    }
+
+    .landing-text {
+        font-size: 2.4em;
+        margin-left: 2em;
+    }
+
+    .horz-btn {
+        font-size: 0.5em;
+        padding: 4px 18px;
+    }
+
+    .h-line {
+        width: 160px;
+        margin-right: 1.2em;
+    }
+
+    .right-clip-1 {
+        width: 140px;
+        height: 140px;
+    }
+    .right-clip-2 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .banner {
+        width: 200px;
+        height: 200px;
+    }
+
+    .skills-grid {
+        width: 74%;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skill-item {
+        font-size: 1.2em;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 5em;
+    }
+
+    .project-img {
+        height: 340px;
+    }
+
+    .cool-insta-cont {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .insta-grid {
+        margin-bottom: 2.4em;
+    }
+
+    .insta-feed-1 {
+        width: 240px;
+        height: 240px;
+    }
+    .insta-feed-2 {
+        width: 110px;
+        height: 110px;
+    }
+    .insta-feed-3 {
+        width: 110px;
+        height: 110px;
+    }
+    .insta-feed-4 {
+        width: 240px;
+        height: 240px;
+    }
+
+    .cool-text p {
+        width: 100%;
+        font-size: 1.7em;
+        margin-bottom: 0.6em;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .container {
+        padding: 1em 1.4em;
+    }
+
+    .logo {
+        font-size: 1.4em;
+    }
+
+    .flex-c-spbw {
+        min-height: calc(92vh - 4em);
+    }
+
+    .social-icons {
+        margin-bottom: 2em;
+    }
+
+    .landing-text {
+        font-size: 1.7em;
+        margin-left: 2.9em;
+    }
+
+    .horz-btn {
+        font-size: 0.55em;
+    }
+
+    .right-clip-1 {
+        width: 80px;
+        height: 80px;
+    }
+    .right-clip-2 {
+        width: 140px;
+        height: 140px;
+    }
+
+    .flex-r-spbw {
+        flex-direction: column;
+    }
+
+    .hide-sm {
+        display: none;
+    }
+
+    .aboout-text {
+        width: 100%;
+    }
+
+    .w-full-md {
+        width: 82vw;
+    }
+
+    .skills-grid {
+        width: 100%;
+    }
+
+    .skill-item {
+        font-size: 1em;
+    }
+
+    .project-img {
+        height: 240px;
+    }
+
+    .insta-grid {
+        gap: 14px;
+    }
+
+    .insta-feed-1 {
+        width: 240px;
+        height: 240px;
+    }
+    .insta-feed-2 {
+        width: 110px;
+        height: 110px;
+    }
+    .insta-feed-3 {
+        width: 110px;
+        height: 110px;
+    }
+    .insta-feed-4 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .container {
+        padding: 0.6em;
+    }
+    .landing-text {
+        font-size: 1.55em;
+        margin-left: 3.25em;
+    }
+
+    .h-line {
+        width: 140px;
+    }
+
+    .project-img {
+        height: 186px;
+    }
+
+    .insta-feed-1 {
+        width: 200px;
+        height: 200px;
+    }
+    .insta-feed-2 {
+        width: 90px;
+        height: 90px;
+    }
+    .insta-feed-3 {
+        width: 90px;
+        height: 90px;
+    }
 }
 
 /*
