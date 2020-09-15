@@ -1,4 +1,5 @@
 import React from "react";
+import { Zoom } from "@material-ui/core";
 
 import { Paragraph } from "./sub-components/Paragraph";
 
@@ -20,6 +21,31 @@ export const About = () => {
                     src="images/my-avatar-center.jpg"
                     alt="Avatar of Soumya dey"
                 ></img>
+                <Zoom in={true} timeout={400}>
+                    <div className="icons about-icons hide-sm">
+                        <a
+                            href="https://github.com/Soumya-Dey"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i
+                                className="fab fa-github"
+                                title="soumyadey's Github Profile"
+                            ></i>
+                        </a>
+
+                        <a
+                            href="https://dev.to/soumyadey"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i
+                                className="fab fa-dev"
+                                title="soumyadey's DEV.to Profile"
+                            ></i>
+                        </a>
+                    </div>
+                </Zoom>
             </div>
         </div>
     );

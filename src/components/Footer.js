@@ -16,6 +16,14 @@ export const Footer = () => {
                         github
                     </a>
                     <a
+                        className="dev-link"
+                        href="https://dev.to/soumyadey"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        dev.to
+                    </a>
+                    <a
                         className="insta-link"
                         href="https://www.instagram.com/soumya_sl/"
                         target="_blank"

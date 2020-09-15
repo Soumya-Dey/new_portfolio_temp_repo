@@ -89,7 +89,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 130px;
+    width: 186px;
 }
 
 .icons i {
@@ -108,6 +108,10 @@ body {
 
 .fa-twitter:hover {
     color: #1da1f2;
+}
+
+.fa-dev:hover {
+    color: #0a0a0a;
 }
 
 .text-cont {
@@ -169,10 +173,44 @@ body {
     line-height: 2;
 }
 
+.about-icons {
+    position: absolute;
+    right: calc(1em + 246px);
+    background-color: var(--secondary-background);
+    border: 1px solid #ccc;
+    width: 96px;
+    padding: 0.5em 1em;
+    margin-bottom: 1.4em;
+    border-radius: 32px;
+    box-shadow: -1px 1px 4px 1px rgba(0, 0, 0, 0.15);
+}
+
+.about-icons i {
+    font-size: 1.5em;
+}
+
+.about-icons .fa-dev {
+    color: #35c9a4;
+}
+
+.about-icons .fa-github {
+    color: #5c6bc0;
+}
+
+.about-icons .fa-dev:hover {
+    color: #f38e8d;
+}
+
+.about-icons .fa-github:hover {
+    color: #ddac23;
+}
+
 .banner {
-    width: 218px;
-    height: 218px;
-    border-radius: 50%;
+    position: relative;
+    width: 230px;
+    height: 230px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
 }
 
 .skills-cont {
@@ -380,6 +418,10 @@ body {
     color: #333333;
 }
 
+.dev-link:hover {
+    color: #0a0a0a;
+}
+
 .twitter-link:hover {
     color: #1da1f2;
 }
@@ -493,7 +535,7 @@ body {
     }
 
     .h-line {
-        width: 160px;
+        width: 140px;
         margin-right: 1.2em;
     }
 
@@ -651,12 +693,12 @@ body {
         padding: 0.6em;
     }
     .landing-text {
-        font-size: 1.55em;
-        margin-left: 3.25em;
+        font-size: 1.8em;
+        margin-left: 2.85em;
     }
 
     .h-line {
-        width: 140px;
+        width: 100px;
     }
 
     .project-img {

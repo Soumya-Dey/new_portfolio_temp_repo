@@ -25,7 +25,22 @@ export const Landing = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <i className="fab fa-github"></i>
+                                    <i
+                                        className="fab fa-github"
+                                        title="soumyadey's Github Profile"
+                                    ></i>
+                                </a>
+                            </Zoom>
+                            <Zoom in={true} timeout={600}>
+                                <a
+                                    href="https://dev.to/soumyadey"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i
+                                        className="fab fa-dev"
+                                        title="soumyadey's DEV.to Profile"
+                                    ></i>
                                 </a>
                             </Zoom>
                             <Zoom in={true} timeout={600}>
@@ -34,7 +49,10 @@ export const Landing = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <i className="fab fa-instagram"></i>
+                                    <i
+                                        className="fab fa-instagram"
+                                        title="soumyadey's Instagram Profile"
+                                    ></i>
                                 </a>
                             </Zoom>
                             <Zoom in={true} timeout={600}>
@@ -43,7 +61,10 @@ export const Landing = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <i className="fab fa-twitter"></i>
+                                    <i
+                                        className="fab fa-twitter"
+                                        title="soumyadey's Twitter Profile"
+                                    ></i>
                                 </a>
                             </Zoom>
                         </div>
