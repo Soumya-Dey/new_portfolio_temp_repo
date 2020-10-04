@@ -18,34 +18,16 @@ export const Projects = () => {
             link: "https://github.com/Soumya-Dey/devConnect-social-media",
         },
         {
-            heading: "Track-Corona",
-            para1:
-                "A simple website to track and get latest data about COVID-19 pandemic.",
-            link: "https://github.com/Soumya-Dey/track-corona",
-        },
-        {
             heading: "Secrets-Keeper",
             para1:
                 "A web app to share your darkest secrets with the world anonymously.",
             link: "https://secretskeeper.herokuapp.com/",
         },
         {
-            heading: "Notes-Keeper",
-            para1:
-                "A note taking app made with ReactJS inspired from Google Keep.",
-            link: "https://github.com/Soumya-Dey/React-Keeper-app",
-        },
-        {
             heading: "Forkify-app",
             para1:
                 "An app for searching various recipes. View and make your collection of tasty meals.",
             link: "https://github.com/Soumya-Dey/Forkify-app",
-        },
-        {
-            heading: "PIG-Game",
-            para1:
-                "A simple dice board game with a little twist added to it for more fun.",
-            link: "https://github.com/Soumya-Dey/PIG-Game",
         },
     ];
 
@@ -58,6 +40,31 @@ export const Projects = () => {
                     {projectDetails.map((content, i) => (
                         <ProjectItem key={i} content={content} />
                     ))}
+                    <div className="view-more">
+                        <p>
+                            View all of my Projects on Github. I post my Blogs
+                            on DEV.to.
+                        </p>
+                        <div>
+                            <a
+                                href="https://github.com/Soumya-Dey?tab=repositories"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="repo-link"
+                            >
+                                My Projects <i class="fas fa-caret-right"></i>
+                            </a>
+
+                            <a
+                                href="https://dev.to/soumyadey"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="blog-link"
+                            >
+                                My Blog Posts <i class="fas fa-caret-right"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

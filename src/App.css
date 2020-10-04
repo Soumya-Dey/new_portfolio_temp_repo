@@ -282,6 +282,53 @@ body {
     transition: all 0.2s ease;
 }
 
+.view-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2em 5.5em;
+}
+
+.view-more > div {
+    display: flex;
+    align-items: center;
+}
+
+.view-more p {
+    color: var(--primary-text);
+    font-size: 1.4em;
+    font-weight: 700;
+    line-height: 1.7;
+    margin-bottom: 2em;
+}
+
+.view-more a {
+    background-color: #eee;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 0.5em 1.1em;
+    font-size: 1.05em;
+    transition: all 0.2s ease;
+}
+
+.blog-link {
+    margin-left: 1.2em;
+}
+
+.repo-link:hover {
+    background-color: rgba(53, 201, 164, 0.2);
+}
+.blog-link:hover {
+    background-color: rgba(123, 120, 255, 0.25);
+}
+
+.fa-caret-right {
+    margin-left: 0.1em;
+}
+
 .view-href:hover .fa-angle-right,
 .cool-text:hover .fa-angle-right {
     transform: translate(8px, 1px);
@@ -455,6 +502,11 @@ body {
     .horz-btn:hover {
         background-color: transparent;
     }
+
+    .view-more {
+        padding: 2em 0;
+    }
+
     .insta-feed-1 {
         width: 260px;
         height: 260px;
@@ -498,6 +550,19 @@ body {
 
     .project-img {
         height: 200px;
+    }
+
+    .view-more {
+        padding: 2em 1em;
+    }
+    .view-more > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-link {
+        margin-top: 1.2em;
+        margin-left: 0;
     }
 
     .insta-feed-1 {
@@ -571,6 +636,20 @@ body {
         height: 340px;
     }
 
+    .view-more {
+        padding: 2em 5.5em;
+    }
+
+    .view-more > div {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .blog-link {
+        margin-top: 0;
+        margin-left: 1.2em;
+    }
+
     .cool-insta-cont {
         flex-direction: column-reverse;
         align-items: flex-start;
@@ -639,6 +718,10 @@ body {
         height: 140px;
     }
 
+    .view-more {
+        padding: 2em 1em;
+    }
+
     .flex-r-spbw {
         flex-direction: column;
     }
@@ -695,6 +778,19 @@ body {
     .landing-text {
         font-size: 1.8em;
         margin-left: 2.85em;
+    }
+
+    .view-more {
+        padding: 2em 0.3em;
+    }
+    .view-more > div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-link {
+        margin-top: 1.2em;
+        margin-left: 0;
     }
 
     .h-line {
