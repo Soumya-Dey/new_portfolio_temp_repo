@@ -6,6 +6,7 @@ export const SkillList = () => {
       <li className="skill-item">HTML 5</li>
       <li className="skill-item">CSS 3</li>
       <li className="skill-item">Javascript ES6</li>
+      <li className="skill-item">Git & Github</li>
       <li className="skill-item">React</li>
       <li className="skill-item">Redux</li>
       <li className="skill-item">Node.js</li>

@@ -147,7 +147,8 @@ body {
   transform: translateX(-80px);
 }
 
-.landing-text span {
+.landing-text span,
+.landing-text span a {
   color: var(--accent);
 }
 

@@ -80,7 +80,17 @@ export const Landing = () => {
                 Hi there, I’m Soumya.
                 <br />
                 Full Stack <span>Developer</span>,<br />
-                Student, and Freelancer.
+                Student, intern at{" "}
+                <span>
+                  <a
+                    href="https://www.weanalyz.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    WeAnalyz
+                  </a>
+                </span>
+                .
                 <a href="#projects" className="hide-lg horz-btn">
                   view my work
                 </a>
