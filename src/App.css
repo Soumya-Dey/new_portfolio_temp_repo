@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: "Mulish", sans-serif;
+  font-family: 'Mulish', sans-serif;
   background-color: var(--primary-background);
   color: var(--primary-text);
   font-weight: 500;
@@ -237,14 +237,14 @@ body {
 
 .skill-item-learning::before {
   display: block;
-  content: "learning";
+  content: 'learning';
   font-size: 0.7em;
   font-weight: 500;
   letter-spacing: 1px;
   color: var(--error);
   opacity: 0.8;
   position: absolute;
-  top: -4px;
+  top: -8px;
   right: 24px;
 }
 
@@ -374,7 +374,7 @@ body {
 }
 
 .mail-link-href::after {
-  content: "";
+  content: '';
   display: block;
   width: 100%;
   height: 2px;
@@ -406,8 +406,8 @@ body {
 .insta-grid {
   display: grid;
   grid-template-areas:
-    "feed1 feed1 feed2 feed4 feed4"
-    "feed1 feed1 feed3 feed4 feed4";
+    'feed1 feed1 feed2 feed4 feed4'
+    'feed1 feed1 feed3 feed4 feed4';
   gap: 20px;
 }
 
@@ -540,6 +540,10 @@ body {
     width: 260px;
     height: 260px;
   }
+  .skill-item-learning::before {
+    top: -8px;
+    right: -12px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -597,6 +601,10 @@ body {
     grid-area: feed4;
     width: 200px;
     height: 200px;
+  }
+  .skill-item-learning::before {
+    top: -8px;
+    right: 24px;
   }
 }
 
@@ -828,6 +836,10 @@ body {
   .insta-feed-3 {
     width: 90px;
     height: 90px;
+  }
+  .skill-item-learning::before {
+    top: -8px;
+    right: -8px;
   }
 }
 
